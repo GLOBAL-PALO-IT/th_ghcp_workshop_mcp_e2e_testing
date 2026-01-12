@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "atlassian-mcp-server": {
+            "url": "https://mcp.atlassian.com/v1/sse",
+            "type": "http"
+        },
+    "robotframework-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "git+https://github.com/sourcefuse/robotframework-MCP.git",
+        "--project-dir=<ROOT-REPO-PATH>"
+      ],
+      "type": "stdio"
+    }
+  }
+}
+
+
+
