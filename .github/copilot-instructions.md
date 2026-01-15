@@ -16,7 +16,9 @@ AI-Powered Testing: Copilot Meets Jira & Robot Framework MCP
 - dont make up information
 - always confirm task before proceed
 - anything related to robot framework, always use robot framework mcp first (if possible)
-- 
+- robot framework mcp is priority for test case generation
+- always follow robot framework mcp best practices
+- robot framework must written by English
 
 ## jira rules
 - task is not sub-task
